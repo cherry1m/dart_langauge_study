@@ -22,8 +22,8 @@ void main() {
   // print(c); // 후위 연산
 
   int c = 3;
-  print(++c);
   print(c);
+  print(++c); // 전위 연산
 //   a++;
 //   ++a;
 }
